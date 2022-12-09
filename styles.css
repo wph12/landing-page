@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -69,6 +74,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 568px;
 }
 
 .SSRight{
