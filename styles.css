@@ -39,3 +39,64 @@
     color: #F9FAF8;
     text-decoration: none;
 }
+
+.startSection{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.SSContent{
+    display: flex;
+    width:1200px;
+    gap: 32px;
+}
+
+.heroTitle{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heroSub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.SSLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SSRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 0;
+    align-self: flex-start;
+    border: none;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #e5e7eb;
+    color: #3882F6;
+}
