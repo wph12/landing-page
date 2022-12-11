@@ -58,6 +58,7 @@ body{
     display: flex;
     width:1200px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .heroTitle{
@@ -111,9 +112,8 @@ button:hover{
     text-align: center;
     font-size: 36px;
     font-weight: 800;
-    width: 1000px;
     padding: 64px 0px;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .windows{
@@ -121,6 +121,7 @@ button:hover{
     justify-content: center;
     gap: 64px;
     margin-top: 64px;
+    flex-wrap: wrap;
 }
 
 .windowContainer{
@@ -143,4 +144,64 @@ button:hover{
 .windowText{
     font-size: 18px;
     font-weight: normal;
+}
+
+.quoteSection{
+    width: 100%;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer{
+    max-width: 1000px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 32px;
+}
+
+.quoter{
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.signUpSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    display: flex;
+    padding: 48px 96px;
+    justify-content: space-between;
+    gap: 96px;
+    border-radius: 16px;
+}
+
+.ctaButton{
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.cta1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cta2{
+    font-size: 18px;
 }
