@@ -180,6 +180,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .bluebox{
@@ -203,5 +204,17 @@ button:hover{
 }
 
 .cta2{
+    font-size: 18px;
+}
+
+.footer{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
     font-size: 18px;
 }
